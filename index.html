@@ -1,88 +1,52 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 
 <head>
-    <title>
-        Simple web Development Template
-    </title>
+    <h1>Hello</h1>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
-    <nav class="navbar background">
-        <ul class="nav-list">
-            <div class="logo">
-                <img src="logo.png">
-            </div>
-            <li><a href="#web">Web Technology</a></li>
-            <li><a href="#program">C Programming</a></li>
-            <li><a href="#course">Courses</a></li>
-        </ul>
-
-        <div class="rightNav">
-            <input type="text" name="search" id="search">
-            <button class="btn btn-sm">Search</button>
-        </div>
-    </nav>
-
-    <section class="firstsection">
-        <div class="box-main">
-            <div class="firstHalf">
-                <h1 class="text-big" id="web">
-                    Web Technology
-                </h1>
-
-                <p class="text-small">
-                    HTML stands for HyperText Markup
-                    Language.
-                </p>
-
-
-            </div>
-        </div>
-    </section>
-
-    <section class="secondsection">
-        <div class="box-main">
-            <div class="secondHalf">
-                <h1 class="text-big" id="program">
-                    C Programming
-                </h1>
-                <p class="text-small">
-                    C is a procedural programming language.
-
-                </p>
-
-
-            </div>
-        </div>
-    </section>
-
-    <section class="section">
-        <div class="paras">
-            <h1 class="sectionTag text-big">Java</h1>
-
-            <p class="sectionSubTag text-small">
-                Java has been one of the most
-                popular programming language
-                for many years.
-            </p>
-
-
-        </div>
-
-        <div class="thumbnail">
-            <img src="img.png" alt="laptop image">
-        </div>
-    </section>
-
-    <footer class="background">
-        <p class="text-footer">
-            Copyright ©-All rights are reserved
-        </p>
-
-
-    </footer>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+    </style>
 </body>
+<section class="home-section active">
+    <h1 class="hero-heading">hello, i am <br> Shinchana</h1>
+    <center>
+        <img src="https://source.unsplash.com/random/200x200" class="home-img" alt="">
+    </center>
+</section>
+<nav class="navbar navbar-expand-lg fixed-top navbarScroll">
+    <div class="container">
+        <a class="navbar-brand" href="#">Student</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+</nav>
 
 </html>
